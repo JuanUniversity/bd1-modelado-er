@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="deriva" directorySegmentName="seg_0" id="CE19AC05-D7E9-317E-A114-5A5B879166D1">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 05:45:44 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6F65D17-0C45-4449-1763-CD192F29789E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>09FD59E2-3C51-D5FC-AA3F-33E45E899CC4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

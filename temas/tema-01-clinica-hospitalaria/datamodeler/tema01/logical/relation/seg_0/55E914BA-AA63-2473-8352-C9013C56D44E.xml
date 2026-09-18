@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="diagnostica" directorySegmentName="seg_0" id="55E914BA-AA63-2473-8352-C9013C56D44E">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 05:51:28 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B6F65D17-0C45-4449-1763-CD192F29789E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>51A5E085-8934-A53E-3E30-A04B4FC07917</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
