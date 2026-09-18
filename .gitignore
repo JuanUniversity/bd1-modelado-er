@@ -1,0 +1,18 @@
+# --- Oracle SQL Developer Data Modeler ---
+# El .dmd y su carpeta hermana SI se versionan. Solo se ignora lo temporal:
+*.bak
+*.bak[0-9]*
+*.lck
+*~
+DesignTempFolder/
+**/DesignTempFolder/
+
+# Reportes generados por la herramienta (se regeneran)
+**/reports/
+
+# --- Sistema operativo / editores ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

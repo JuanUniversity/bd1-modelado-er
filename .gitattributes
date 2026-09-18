@@ -1,0 +1,6 @@
+# Los XML de Data Modeler se tratan como texto, pero NO se intenta fusionar:
+# un merge automatico corrompe el diseno. Se resuelve eligiendo una version.
+*.xml   text eol=lf -merge
+*.dmd   text eol=lf -merge
+*.png   binary
+*.pdf   binary
