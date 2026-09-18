@@ -15,7 +15,6 @@ Data Modeler.
 ## Estructura
 
 ```
-docs/                         documentos base de la actividad
 temas/tema-XX-nombre/
   modelo.md                   los tres modelos en texto
   justificacion.md            los cuatro puntos de la justificacion
