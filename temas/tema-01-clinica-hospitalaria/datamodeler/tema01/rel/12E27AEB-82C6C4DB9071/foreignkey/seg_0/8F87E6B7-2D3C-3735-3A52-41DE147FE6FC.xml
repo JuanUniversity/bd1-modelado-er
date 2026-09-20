@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F87E6B7-2D3C-3735-3A52-41DE147FE6FC" containerWithKeyObject="139927CF-1328-D8F8-D3F3-C2609B438487" localFKIndex="E303ECB5-2502-6229-8268-24E97CFA47A0" name="diagnostica_DIAGNOSTICO_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>55E914BA-AA63-2473-8352-C9013C56D44E</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<referredTableLongName>DIAGNOSTICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94ECC8FA-3175-3E33-23A1-57A0BEE2C2B6</referredTableID>
+<keyObject>88F9D872-8754-A9A2-E36E-90700B9C86C3</keyObject>
+<referredKeyID>88F9D872-8754-A9A2-E36E-90700B9C86C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>diagnostico_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

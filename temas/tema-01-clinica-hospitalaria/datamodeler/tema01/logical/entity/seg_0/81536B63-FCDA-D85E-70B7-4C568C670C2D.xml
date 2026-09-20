@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81536B63-FCDA-D85E-70B7-4C568C670C2D" name="CAMA">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 05:24:42 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="area_id" id="B9EED46D-90D5-3211-A5FA-E086F41324F5">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:32:28 UTC</createdTime>
+<generatorID>B4AAAFBB-1E0B-53A1-0CF0-63AB3072BE80</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<referedAttribute>763FE1C1-288A-3A56-6250-9ECDDC123A13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cama_id" id="5DE698CB-E9C6-0679-F8B7-F20F7D02CF0C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:33:39 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_cama" id="D1D7DD59-490C-6527-42F0-3186F75688F9">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:33:56 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="03384BB2-ECC1-3D30-D7FB-EDCFC29C76E0">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:34:40 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="libre" description=""/>
+<valueDef value="mantenimiento" description=""/>
+<valueDef value="ocupada" description=""/>
+</listOfValues>
+<defaultValue>libre</defaultValue>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD818296-7061-A5E4-3C24-FCBD0B17C49C" name="CAMA PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:33:51 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DE698CB-E9C6-0679-F8B7-F20F7D02CF0C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3921EDF0-5ECE-2662-02CB-EAD4B85443DC" name="cama_uk_codigo">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:54:57 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
+</engineerTo>
+<newElementsIDs>D1D7DD59-490C-6527-42F0-3186F75688F9</newElementsIDs>
+<usedAttributes>
+<attributeRef>D1D7DD59-490C-6527-42F0-3186F75688F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

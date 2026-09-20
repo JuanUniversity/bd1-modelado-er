@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01D754E3-C915-49EB-9D34-4D5334B2EA2A" name="HISTORIA_CLINICA">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 05:25:05 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="paciente_id" id="CBA08EA1-61B2-1F70-4833-FF27B10D992E">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 20:53:24 UTC</createdTime>
+<generatorID>AB308981-9726-9977-2448-22808C0923CD</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<referedAttribute>DA7905C0-F097-AFC3-49D3-3324E705423C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="historia_id" id="5DDA9454-F79A-2D1E-AD1E-558867C42AD5">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 18:56:06 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_historia" id="6DE0AA96-6C9A-625A-4460-6F71295FCD53">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 18:57:50 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_apertura" id="5FFE487C-339D-5892-4315-5BACB09A6EBB">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 18:59:41 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupo_sanguineo" id="3B66D0F0-35FD-2067-5FDA-80F5C3406FB0">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:01:21 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<listOfValues>
+<valueDef value="A+" description=""/>
+<valueDef value="A-" description=""/>
+<valueDef value="AB+" description=""/>
+<valueDef value="AB-" description=""/>
+<valueDef value="B+" description=""/>
+<valueDef value="B-" description=""/>
+<valueDef value="O+" description=""/>
+<valueDef value="O-" description=""/>
+</listOfValues>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alergias" id="1FF90FAA-C697-8CE2-A12A-FADD1D5EDC95">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:02:36 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="antecedentes" id="431D0819-0624-A1B2-A3FF-87F4E6CF1884">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:02:59 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="758E1EF5-0B92-7DEC-AC46-3AE3EEDFB051" name="HISTORIA_CLINICA PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 18:57:02 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DDA9454-F79A-2D1E-AD1E-558867C42AD5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="61724505-AE98-4D54-7735-FC9A965AF761" name="historia_uk_numero">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:48:40 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
+</engineerTo>
+<newElementsIDs>6DE0AA96-6C9A-625A-4460-6F71295FCD53</newElementsIDs>
+<usedAttributes>
+<attributeRef>6DE0AA96-6C9A-625A-4460-6F71295FCD53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

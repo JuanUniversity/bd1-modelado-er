@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ordena" directorySegmentName="seg_0" id="715ABEF0-B20A-12B2-D693-70B301ABE3EB">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 05:53:36 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B6F65D17-0C45-4449-1763-CD192F29789E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>155C3389-727B-6C5F-5EB2-A34D907D2592</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

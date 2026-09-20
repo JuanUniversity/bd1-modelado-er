@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F807BF26-7ABB-9C3D-BB4C-BC899900F341" name="HOSPITALIZACION">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>09FD59E2-3C51-D5FC-AA3F-33E45E899CC4</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hospitalizacion_id" id="7DEA2953-185F-5146-C098-886B02E3ABA6">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>6E377E5C-5099-F724-A1EA-6264F4D33382</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="59FBC93B-6025-8D34-4802-774DAF4B73F5">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>997D26CE-737D-D927-D603-E67955719F9E</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_egreso" id="C1832153-7295-4CEA-E9A8-1D6AA8EDB17D">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>A8CD3D64-D223-FB9E-4330-57AB6B331B09</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motivo_ingreso" id="7E4F9ECC-E399-7174-DC34-3AE0294048C9">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>3114C343-7F91-6A58-A789-3C9BF1CE82AD</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="05368CF4-D141-93DF-8CAD-71E21AC4B1B4">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>11C97FDF-5E07-B663-AF7E-7CA2D2B76894</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="activa" description=""/>
+<valueDef value="egresada" description=""/>
+</listOfValues>
+<defaultValue>activa</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cama_id" id="30604366-ED80-0C00-09BE-5A8EBFC96018">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>1EA065BF-7022-CC6D-3D72-3B4F93AE4365</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50C1A333-688D-F04B-D02A-5E4156CA356A" referredColumn="3B23F887-62FF-26D0-C15B-B751846F30E8"/>
+</associations>
+</Column>
+<Column name="atencion_id" id="227437E3-B78B-B88E-47D4-DBAE5CB385E5">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 02:09:22 UTC</createdTime>
+<generatorID>CF592D56-9C86-936E-A35B-B686A45DBD1C</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46BFDDE3-021F-C962-4775-45DF354A423B" referredColumn="F6A5B21B-87D8-3A81-F666-9BA441749AC0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC69A451-95E4-6BD6-4F72-2BB55CDB3F9C" name="HOSPITALIZACION_PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>11ADE6A5-34B6-FC31-C7F1-C100A42BC74B</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DEA2953-185F-5146-C098-886B02E3ABA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35FCCF5D-78EF-6E10-9391-63DD807EC092" name="HOSPITALIZACION__IDX">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 02:09:22 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CE19AC05-D7E9-317E-A114-5A5B879166D1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="227437E3-B78B-B88E-47D4-DBAE5CB385E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="807C8C75-72E8-B810-D083-1194118D64F8" name="HOSPITALIZACION_CAMA_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>EB0527A2-9840-126D-B0C0-EE5ED0E41D9E</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30604366-ED80-0C00-09BE-5A8EBFC96018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93C76E96-2F7E-1F81-69FD-EFE6EAD22BB2" name="HOSPITALIZACION_ATENCION_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 02:09:22 UTC</createdTime>
+<generatorID>CE19AC05-D7E9-317E-A114-5A5B879166D1</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="227437E3-B78B-B88E-47D4-DBAE5CB385E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

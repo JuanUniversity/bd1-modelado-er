@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="aloja" directorySegmentName="seg_0" id="EB0527A2-9840-126D-B0C0-EE5ED0E41D9E">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 05:40:25 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<sourcePk>AD818296-7061-A5E4-3C24-FCBD0B17C49C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>81536B63-FCDA-D85E-70B7-4C568C670C2D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09FD59E2-3C51-D5FC-AA3F-33E45E899CC4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

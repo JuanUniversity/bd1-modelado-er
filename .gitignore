@@ -4,6 +4,7 @@
 *.bak[0-9]*
 *.lck
 *~
+*.local
 DesignTempFolder/
 **/DesignTempFolder/
 

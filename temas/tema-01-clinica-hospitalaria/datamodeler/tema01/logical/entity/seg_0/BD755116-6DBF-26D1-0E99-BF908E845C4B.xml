@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD755116-6DBF-26D1-0E99-BF908E845C4B" name="DOCTOR">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 05:25:26 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="doctor_id" id="39BD35ED-439E-71AD-3B9D-4604C986B3E2">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:10:11 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="17DA3CCA-7826-3EE7-1EC9-F2153078367B">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:11:52 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="B8B1E6C9-BCD9-A44F-241A-059649A91237">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:12:21 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="2C71956C-B667-AA20-D4F8-378AF63EC072">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:12:57 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registro_medico" id="5CF67589-B1E8-386D-1B17-797A61AA760E">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:13:13 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="BC36D3DC-BBD2-C783-39F3-C0189EC964CF">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:13:45 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad_id" id="40D67A7B-DCAA-458A-70BE-5CBFF961A88C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:15:45 UTC</createdTime>
+<generatorID>119DC92A-CDFF-CC33-7717-EA47CEC6FE58</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<referedAttribute>6BB58C74-5356-4F5E-6FE4-2C995D5F113B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9369BFD-CD0E-BEC8-3143-8AF85841734C" name="DOCTOR PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:11:10 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39BD35ED-439E-71AD-3B9D-4604C986B3E2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3C95E974-2056-B0CA-D3A2-D952A9431CA4" name="doctor_uk_documento">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:49:08 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
+</engineerTo>
+<newElementsIDs>17DA3CCA-7826-3EE7-1EC9-F2153078367B</newElementsIDs>
+<usedAttributes>
+<attributeRef>17DA3CCA-7826-3EE7-1EC9-F2153078367B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="CC045B95-1C50-BD03-820F-9C0A74F481F9" name="doctor_uk_registro">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:49:57 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
+</engineerTo>
+<newElementsIDs>5CF67589-B1E8-386D-1B17-797A61AA760E</newElementsIDs>
+<usedAttributes>
+<attributeRef>5CF67589-B1E8-386D-1B17-797A61AA760E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
