@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="vendedor" directorySegmentName="seg_0" id="5FBC5C7F-A337-EED7-13CF-568F1E52F201">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nit" id="20B62011-7AE0-6DDA-3B2E-F7DEB75F651D">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre_tienda" id="6FF87B45-D951-663A-860E-4192CC25A641">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecha_alta" id="7064CB9C-3307-CF43-01E4-CE895889924F">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="vendedor_id" id="920D1142-6A4D-E98A-7F72-79CA03ECCC1C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descripcion" id="CBA04964-5FFB-7B42-4B29-3B58D1012F22">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="usuario_id" id="D03DBC62-322E-1F91-93B7-4056AAADCA17">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estado" id="E4541721-6E51-F45A-C3C0-03AB89AAC5B3">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<defaultValue>&apos;activo&apos;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="vendedor_usuario_fk" id="95F62E49-6B0D-9311-C9EA-11AA111EB20D">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="vendedor_pk" id="E86BD7E3-2894-EAFC-98C3-2F648303CA7A">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="vendedor_tienda_un" id="17EFDAC6-479F-9168-43A1-68231F9BD68D">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="vendedor_usuario_un" id="56EE82A2-6E73-99FF-E779-BF1C39D4065B">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="vendedor_nit_un" id="5E1C8EBA-4F83-01B0-1F3F-46462C86CAC6">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

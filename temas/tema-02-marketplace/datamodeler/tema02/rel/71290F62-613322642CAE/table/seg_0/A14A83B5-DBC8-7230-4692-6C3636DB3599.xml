@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A14A83B5-DBC8-7230-4692-6C3636DB3599" name="envio">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>BCC8325E-47A0-8889-99BC-870414D5B5F7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="envio_id" id="9C38A3CE-1277-4D05-E1E9-5EAE3A5CC566">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>58A72152-9112-EFED-4EC9-831CDB28CA78</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_guia" id="DDA1D900-6EC5-B4BB-5AEF-FF28937ED3D2">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>B467DD5D-4A3F-A7C2-2496-902341214330</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9C221455-6387-4192-32E8-ED01904F303A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transportadora" id="D8BF1208-CF6F-6668-60B1-F7E3395EB349">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>23E31CB9-C1F5-5494-0852-E18616106C48</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CB08A99E-35F5-827D-B980-9608BE76A59F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_despacho" id="92B335EE-533A-E9A4-DDCE-799C96888CD1">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>E94087B0-07F6-C12A-452D-F3BDEBCD22AF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0985C258-B288-EDEA-29AD-A02F291074C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega_estimada" id="7286A4C0-3655-62A0-1AFE-7DFC1855DFC1">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>A54C5059-2322-7052-ABEF-09525B36EC5A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0985C258-B288-EDEA-29AD-A02F291074C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_envio" id="B1C5A98F-C9BA-5B5A-8FC6-2A08F9A7E72D">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>F1B383D2-A5DA-F210-5F04-1B4170E20B1E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC0830E5-1766-3788-6270-9D7F62550E55</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="costo_envio &gt;= 0"/>
+</checkConstraint>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pedido_id" id="1F1D9E01-6D69-DBED-5B01-1CC25A8CBF16">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>1E356EB1-6895-B5D0-9C52-AB1872526019</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="398C915C-3B71-B635-B799-BC7A0CC1537C" referredColumn="1899428B-63D7-9343-A6CE-E36DD0E863C0"/>
+</associations>
+</Column>
+<Column name="vendedor_id" id="A7A3D7E1-816C-A9F5-65CA-5BE460B8D930">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>F7D4093A-A618-B1A3-22EE-709814F972FC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A27BAB67-5F71-61DB-11DF-283B70F29DEB" referredColumn="920D1142-6A4D-E98A-7F72-79CA03ECCC1C"/>
+</associations>
+</Column>
+<Column name="direccion_id" id="6E387B0E-A551-758B-BAC0-AF39F30684A5">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>84CF06C6-A9C4-DAA4-7777-0CD18F1C2265</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3124C1DA-938B-8E03-13A4-AE36193644F9" referredColumn="FD5AED12-FAB7-AD8A-EFB8-4EE2DEE671CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D76CB13-2384-0646-1192-C90B96C6DF25" name="envio_pk">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>E4A7852C-5A24-9D5A-DB8A-0132CD009EB5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C38A3CE-1277-4D05-E1E9-5EAE3A5CC566"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D52E087-49FB-B1E9-AEB5-A7D8F1980A28" name="envio_guia_un">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>0EB703A4-5916-5911-B0E9-D271AC77DD72</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDA1D900-6EC5-B4BB-5AEF-FF28937ED3D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09DCD804-26DD-0217-5E32-2041A468CA28" name="envio_direccion_fk">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E387B0E-A551-758B-BAC0-AF39F30684A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAE10C69-6EC9-54C8-532D-AFDC615BCC20" name="envio_pedido_fk">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F1D9E01-6D69-DBED-5B01-1CC25A8CBF16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="795ECAFF-20B3-D8DC-B239-EB12490A6A79" name="envio_vendedor_fk">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A3D7E1-816C-A9F5-65CA-5BE460B8D930"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

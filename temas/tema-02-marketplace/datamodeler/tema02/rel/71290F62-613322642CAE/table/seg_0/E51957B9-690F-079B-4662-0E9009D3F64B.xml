@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E51957B9-690F-079B-4662-0E9009D3F64B" name="usuario">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>20BC20F2-1A62-8267-B304-1297469960B9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id" id="65CCA1DF-F838-819B-5E36-4AD80451027B">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>C73B98AC-76BE-124A-E059-EC83138D8AA4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="D1EEE402-C1BE-C2BB-1869-A4F998D53724">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>E9702D09-1827-BE55-8995-E173D4EA984C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64FD0F27-AFFC-886F-A307-F8443CD99865</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasena_hash" id="EF322D49-08E9-9A01-566F-F9E5318C1625">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>1F1A730A-159E-CD2D-6AAE-594BAB5558E1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>11CDF7EC-FC67-4492-2FB9-61FD4B90C4CD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="46587318-88BA-0493-DE3A-02F0F11E10F8">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>C778A6EE-7C45-1FD8-BB4C-F73F5CEB8DB9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CB08A99E-35F5-827D-B980-9608BE76A59F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="F6698DA7-9C92-BFB9-AC37-AC6A45D66AE6">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>7B231C98-670E-1D7C-5476-E126E1414BA1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CB08A99E-35F5-827D-B980-9608BE76A59F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="13E1F688-0B30-84B6-3F0B-774901000A9C">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>AFB454B2-9965-30C0-5011-C7C6606E180D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>39906236-4E31-9AD7-EB49-00EFAB6F6530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_registro" id="B4AF6681-FFAD-5E7B-F385-6B7B8DA905B3">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>3935C5F6-E075-1582-2458-749F5043ADF2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0985C258-B288-EDEA-29AD-A02F291074C3</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="E07C620A-8409-1078-F01B-52FF50C35198">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>A3B169E0-06B3-9A1D-FCA1-E713DFF1F4C9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7482969-A0BD-D2EF-0DF0-36EC6AB9EE79</domain>
+<listOfValues>
+<valueDef value="activo" description=""/>
+<valueDef value="inactivo" description=""/>
+<valueDef value="suspendido" description=""/>
+</listOfValues>
+<defaultValue>&apos;activo&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28657479-8C04-B1CB-B6B8-0B276048ADD6" name="usuario_pk">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>FAA019E6-EF6D-C877-8378-E0990179203E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65CCA1DF-F838-819B-5E36-4AD80451027B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0694CF2-9E07-F0A2-0893-0E48AE96F0B0" name="usuario_correo_un">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>9DCA90D5-8BC9-7820-E757-0FFEE0BF0F3B</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1EEE402-C1BE-C2BB-1869-A4F998D53724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

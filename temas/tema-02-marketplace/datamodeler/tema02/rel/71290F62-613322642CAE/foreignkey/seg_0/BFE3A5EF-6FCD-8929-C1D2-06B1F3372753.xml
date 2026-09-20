@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFE3A5EF-6FCD-8929-C1D2-06B1F3372753" containerWithKeyObject="947F70D8-CCB8-F9FE-9474-05A5A789FE22" localFKIndex="E561ADC4-9C97-9A02-10E2-5F1FD763CB9D" name="calificacion_vendedor_fk">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>26DA3805-3BDE-908B-F7F4-B7E7D4201550</importedID>
+<referredTableLongName>vendedor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5FBC5C7F-A337-EED7-13CF-568F1E52F201</referredTableID>
+<keyObject>E86BD7E3-2894-EAFC-98C3-2F648303CA7A</keyObject>
+<referredKeyID>E86BD7E3-2894-EAFC-98C3-2F648303CA7A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vendedor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

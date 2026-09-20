@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tema02" id="8267CBE5-49C7-A767-7EE4-D10069D68479" version="3.5">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:09:59 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8267CBE5-49C7-A767-7EE4-D10069D68479</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CC0D070D-1034-A9A9-A94E-C4C175CABDC6">
+<designStoragePath>/tema02</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

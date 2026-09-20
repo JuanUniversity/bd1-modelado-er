@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34A5D635-9B88-33F6-D489-AB0C6742D1FC" containerWithKeyObject="EDBB1568-A014-E627-A5FF-1B000700F62B" localFKIndex="57B9E131-3926-4E15-8B5F-8E557A741288" name="seguimiento_envio_fk">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>168AF974-2205-241D-6D1C-3562C4149C68</importedID>
+<referredTableLongName>envio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A14A83B5-DBC8-7230-4692-6C3636DB3599</referredTableID>
+<keyObject>0D76CB13-2384-0646-1192-C90B96C6DF25</keyObject>
+<referredKeyID>0D76CB13-2384-0646-1192-C90B96C6DF25</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>envio_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

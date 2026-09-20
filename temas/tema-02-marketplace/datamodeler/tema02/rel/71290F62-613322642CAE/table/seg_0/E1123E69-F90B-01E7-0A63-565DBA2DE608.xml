@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1123E69-F90B-01E7-0A63-565DBA2DE608" name="item_carrito">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>C3BB5ED8-F134-AD8F-956C-6FC2F908CDE0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="carrito_id" id="BB1C8BAA-3820-1781-A38D-B49071F3A8C6">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>C9D2F44B-1B61-08AB-56C3-C1E8E2C0CA6B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59146972-1037-1B53-2A6A-83D21FE798FF" referredColumn="62166B28-9535-69F8-4DC7-A64C2F53C4AA"/>
+</associations>
+</Column>
+<Column name="producto_id" id="6E24D1DD-51B4-F8F1-67EE-F05F1748625D">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>6947930D-D108-6A2D-C4F3-9960DCC84EE1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46536928-E95E-1A6E-2120-956E27EAE4EE" referredColumn="5285A0BE-5640-ABF1-5B04-F8F861204F22"/>
+</associations>
+</Column>
+<Column name="cantidad" id="34C59D99-F268-F573-79C0-1840063E44CC">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>C2577789-06E9-29BC-526A-DEA5572C9F91</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EF32BCA8-5D17-6654-3F9C-3561F51E897C</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="cantidad &gt; 0"/>
+</checkConstraint>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83961864-7569-1A3B-25A7-27753EEDB3F2" name="item_carrito_pk">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>BB7D3319-D419-90C5-22AE-0552FF2391D0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB1C8BAA-3820-1781-A38D-B49071F3A8C6"/>
+<colUsage columnID="6E24D1DD-51B4-F8F1-67EE-F05F1748625D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE6D4E93-DB9A-F6DD-FC12-2E17C7FABE73" name="item_carrito_carrito_fk">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB1C8BAA-3820-1781-A38D-B49071F3A8C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93556A3B-2422-3739-8F65-242C1ADCEE57" name="item_carrito_producto_fk">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E24D1DD-51B4-F8F1-67EE-F05F1748625D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

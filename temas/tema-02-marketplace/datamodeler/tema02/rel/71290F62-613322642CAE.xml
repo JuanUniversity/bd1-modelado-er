@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="71290F62-52C3-EAF5-DA9D-613322642CAE" mainViewID="11ECB500-88E6-3202-340E-58D759771462">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:10:00 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>tema02.sql</fileName>
+<pathName>/home/juan/Documentos/bd1-modelado-er-actividad/bd1-modelado-er/temas/tema-02-marketplace/ddl</pathName>
+<dbType>9</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

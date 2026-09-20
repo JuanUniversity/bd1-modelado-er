@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3124C1DA-938B-8E03-13A4-AE36193644F9" containerWithKeyObject="A14A83B5-DBC8-7230-4692-6C3636DB3599" localFKIndex="09DCD804-26DD-0217-5E32-2041A468CA28" name="envio_direccion_fk">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>D7051005-7B1F-9A7A-B6B6-FCAF87AE4D48</importedID>
+<referredTableLongName>direccion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DA49C21-CE2F-A832-8BB0-055684A26E3F</referredTableID>
+<keyObject>DC3DA83E-0A19-F717-1F25-83746595BA5D</keyObject>
+<referredKeyID>DC3DA83E-0A19-F717-1F25-83746595BA5D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>direccion_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

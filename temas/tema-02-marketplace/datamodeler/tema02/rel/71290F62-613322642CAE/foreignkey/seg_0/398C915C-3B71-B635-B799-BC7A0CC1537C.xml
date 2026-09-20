@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="398C915C-3B71-B635-B799-BC7A0CC1537C" containerWithKeyObject="A14A83B5-DBC8-7230-4692-6C3636DB3599" localFKIndex="CAE10C69-6EC9-54C8-532D-AFDC615BCC20" name="envio_pedido_fk">
+<sourceDDLFile>tema02.sql</sourceDDLFile>
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 16:15:42 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<importedID>3D56AA44-2035-C003-6D10-81340061C860</importedID>
+<referredTableLongName>pedido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E2E398C-23B6-6CA7-D122-64D416A1D45F</referredTableID>
+<keyObject>D8BA6823-BDAC-FB99-3B56-1DBCE8EDB2F5</keyObject>
+<referredKeyID>D8BA6823-BDAC-FB99-3B56-1DBCE8EDB2F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pedido_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
