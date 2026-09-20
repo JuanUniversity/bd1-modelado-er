@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7C17F72-3861-22E3-F15B-275DA22CCF95" name="ordena">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATENCION_atencion_id" id="7BCD129B-A7AA-612B-F878-4AA6D08E09D7">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC2E5A18-C72D-4A3D-458D-826217F6A53A" referredColumn="F6A5B21B-87D8-3A81-F666-9BA441749AC0"/>
+</associations>
+</Column>
+<Column name="EXAMEN_examen_id" id="3F99C1B3-DD4D-B5B5-7E26-9745AA2A634C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC9A64B6-30E2-E10A-A8FE-5C3F5433420E" referredColumn="0DC8E77B-0693-2B27-04C2-B028CABDEAD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7A514CF-7E02-363F-F196-63FCCA1B3F61" name="ordena_PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BCD129B-A7AA-612B-F878-4AA6D08E09D7"/>
+<colUsage columnID="3F99C1B3-DD4D-B5B5-7E26-9745AA2A634C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="808A6A3B-967A-F014-611D-0C88A60EC614" name="ordena_ATENCION_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>715ABEF0-B20A-12B2-D693-70B301ABE3EB</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BCD129B-A7AA-612B-F878-4AA6D08E09D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAE64322-B448-092C-813E-A8B2E180AE7B" name="ordena_EXAMEN_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>715ABEF0-B20A-12B2-D693-70B301ABE3EB</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F99C1B3-DD4D-B5B5-7E26-9745AA2A634C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

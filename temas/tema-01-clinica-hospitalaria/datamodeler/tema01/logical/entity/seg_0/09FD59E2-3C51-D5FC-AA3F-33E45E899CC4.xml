@@ -91,8 +91,21 @@
 <engineerTo>
 <item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>5DE698CB-E9C6-0679-F8B7-F20F7D02CF0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atencion_id" id="CF592D56-9C86-936E-A35B-B686A45DBD1C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 02:02:19 UTC</createdTime>
+<generatorID>CE19AC05-D7E9-317E-A114-5A5B879166D1</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<referedAttribute>FD33A378-F91F-A868-21F5-F19F72E92480</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -104,8 +117,9 @@
 <createdBy>juan</createdBy>
 <createdTime>2026-09-19 19:29:05 UTC</createdTime>
 <ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

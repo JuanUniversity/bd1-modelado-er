@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="899942D1-EACF-3AEB-EF53-B3E6459E67FC" name="CAMA">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>81536B63-FCDA-D85E-70B7-4C568C670C2D</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="area_id" id="DB31E03C-8F8A-0873-ED1A-333B517473CA">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>B9EED46D-90D5-3211-A5FA-E086F41324F5</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="665E3C5F-1604-42CC-AADA-7514BD324E6B" referredColumn="7C4673D2-95F2-08D2-DFC8-41BFE619C619"/>
+</associations>
+</Column>
+<Column name="cama_id" id="3B23F887-62FF-26D0-C15B-B751846F30E8">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>5DE698CB-E9C6-0679-F8B7-F20F7D02CF0C</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_cama" id="9F328477-BFF1-5999-8219-28DF9FD23D13">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>D1D7DD59-490C-6527-42F0-3186F75688F9</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="E3899FA6-3C5B-E869-7B64-970FD7F852D3">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>03384BB2-ECC1-3D30-D7FB-EDCFC29C76E0</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="libre" description=""/>
+<valueDef value="mantenimiento" description=""/>
+<valueDef value="ocupada" description=""/>
+</listOfValues>
+<defaultValue>libre</defaultValue>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DA712AD-FEF2-30BE-31C9-5AD1E8AD55BE" name="CAMA_PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>AD818296-7061-A5E4-3C24-FCBD0B17C49C</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B23F887-62FF-26D0-C15B-B751846F30E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C82324CD-C123-1B38-1804-23E1A570DDE9" name="CAMA_codigo_cama_UN">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>3921EDF0-5ECE-2662-02CB-EAD4B85443DC</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F328477-BFF1-5999-8219-28DF9FD23D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4424EA6-AF34-FC72-67F0-0FEFF5FD887E" name="CAMA_AREA_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>B4AAAFBB-1E0B-53A1-0CF0-63AB3072BE80</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB31E03C-8F8A-0873-ED1A-333B517473CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

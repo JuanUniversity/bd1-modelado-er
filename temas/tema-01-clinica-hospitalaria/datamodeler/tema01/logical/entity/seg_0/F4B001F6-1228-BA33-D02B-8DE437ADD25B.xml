@@ -143,28 +143,15 @@
 <dataTypeSize>120</dataTypeSize>
 <ownDataTypeParameters>120,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="historia_id" id="F4B7F643-6C09-0926-1B81-15E7B5FF723C">
-<createdBy>juan</createdBy>
-<createdTime>2026-09-19 18:57:45 UTC</createdTime>
-<generatorID>AB308981-9726-9977-2448-22808C0923CD</generatorID>
-<ownerDesignName>tema01</ownerDesignName>
-<engineerTo>
-<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
-</engineerTo>
-<referedAttribute>5DDA9454-F79A-2D1E-AD1E-558867C42AD5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="332D90D6-95E4-A622-6CAD-42B51A530F63" name="PACIENTE PK">
 <createdBy>juan</createdBy>
 <createdTime>2026-09-18 20:53:14 UTC</createdTime>
 <ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -175,8 +162,9 @@
 <createdBy>juan</createdBy>
 <createdTime>2026-09-19 19:42:51 UTC</createdTime>
 <ownerDesignName>tema01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="false"/>
 </engineerTo>
 <newElementsIDs>EBDAF077-3F2C-64CD-F768-592634FDDCB0</newElementsIDs>
 <usedAttributes>

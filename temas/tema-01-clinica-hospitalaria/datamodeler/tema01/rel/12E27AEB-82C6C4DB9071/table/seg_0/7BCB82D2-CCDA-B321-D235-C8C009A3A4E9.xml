@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BCB82D2-CCDA-B321-D235-C8C009A3A4E9" name="HISTORIA_CLINICA">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>01D754E3-C915-49EB-9D34-4D5334B2EA2A</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="paciente_id" id="12DD9C2F-E5F0-0962-DF21-2214904053A1">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>CBA08EA1-61B2-1F70-4833-FF27B10D992E</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35FC12A1-8D55-E85F-B10F-1224793485B9" referredColumn="99363A9B-3B12-80BC-D135-82B47CF9C0C4"/>
+</associations>
+</Column>
+<Column name="historia_id" id="F3520CBC-59CF-D3E4-10B4-5BAA22058568">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>5DDA9454-F79A-2D1E-AD1E-558867C42AD5</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_historia" id="1D306828-D939-0458-EF4C-7F8DB45B78B1">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>6DE0AA96-6C9A-625A-4460-6F71295FCD53</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_apertura" id="2F9D2510-0A20-607B-CAE0-60623D11DC7F">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>5FFE487C-339D-5892-4315-5BACB09A6EBB</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupo_sanguineo" id="E30A6410-7FCE-C090-AEE9-FBD251D17565">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>3B66D0F0-35FD-2067-5FDA-80F5C3406FB0</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<listOfValues>
+<valueDef value="A+" description=""/>
+<valueDef value="A-" description=""/>
+<valueDef value="AB+" description=""/>
+<valueDef value="AB-" description=""/>
+<valueDef value="B+" description=""/>
+<valueDef value="B-" description=""/>
+<valueDef value="O+" description=""/>
+<valueDef value="O-" description=""/>
+</listOfValues>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alergias" id="059C9439-A738-004D-93FC-B183CB1ED28A">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>1FF90FAA-C697-8CE2-A12A-FADD1D5EDC95</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="antecedentes" id="BD57C3BB-3E8C-6B30-AB04-844307821FAD">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>431D0819-0624-A1B2-A3FF-87F4E6CF1884</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1B1E8C3-BF42-2A8C-145B-25D0FDA548B1" name="HISTORIA_CLINICA_PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>758E1EF5-0B92-7DEC-AC46-3AE3EEDFB051</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3520CBC-59CF-D3E4-10B4-5BAA22058568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6444F33E-9899-E4BC-85B6-16CF027D9521" name="historia_numero_un">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>61724505-AE98-4D54-7735-FC9A965AF761</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D306828-D939-0458-EF4C-7F8DB45B78B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDE04766-A615-395E-B179-320262892E46" name="historia_paciente_un">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:54:42 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12DD9C2F-E5F0-0962-DF21-2214904053A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="514C4685-C86E-87AA-0F98-75A26608DA57" name="HISTORIA_CLINICA__IDX">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AB308981-9726-9977-2448-22808C0923CD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="12DD9C2F-E5F0-0962-DF21-2214904053A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAD8C6F7-0536-D887-1059-D772E69E7480" name="HISTORIA_CLINICA_PACIENTE_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>AB308981-9726-9977-2448-22808C0923CD</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12DD9C2F-E5F0-0962-DF21-2214904053A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

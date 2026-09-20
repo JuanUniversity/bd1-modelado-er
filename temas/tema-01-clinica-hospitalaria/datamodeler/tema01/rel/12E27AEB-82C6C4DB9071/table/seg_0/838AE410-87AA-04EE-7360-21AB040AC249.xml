@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="838AE410-87AA-04EE-7360-21AB040AC249" name="EXAMEN">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>155C3389-727B-6C5F-5EB2-A34D907D2592</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="examen_id" id="0DC8E77B-0693-2B27-04C2-B028CABDEAD5">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>66D4710D-9E11-A4E8-B72A-0F99EAC18C4A</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_examen" id="13AEE673-1825-428D-A7C0-63B324DC269A">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>5094D8C7-D497-D6A0-D242-C18147966EC8</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_examen" id="8247C093-7374-4D23-442D-588B2F2DA529">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>04E080A7-A071-E23F-4163-4F280FD8A4A3</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="imagenologia" description=""/>
+<valueDef value="laboratorio" description=""/>
+<valueDef value="procedimiento" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preparacion_requerida" id="B15C282F-A490-9D90-A886-B64725F02D80">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>01CAD272-7998-5908-AA0C-2A0EE2C3BE2B</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BEF4DA7-B271-9E4D-4529-A7150BD14DE9" name="EXAMEN_PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>A220B282-9E36-8093-9FCA-11062383E855</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DC8E77B-0693-2B27-04C2-B028CABDEAD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

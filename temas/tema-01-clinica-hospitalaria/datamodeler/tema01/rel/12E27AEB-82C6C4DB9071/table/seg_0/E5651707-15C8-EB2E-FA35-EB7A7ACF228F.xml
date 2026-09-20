@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5651707-15C8-EB2E-FA35-EB7A7ACF228F" name="MEDICAMENTO">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>F19687C1-40B4-4095-B2F0-AA523CCBF0C4</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="medicamento_id" id="C9468E91-721A-1C2E-70C1-6DBF3F98BDC6">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>0F4E81A9-68C7-0354-F8FF-EA8EE231FEF8</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_medicamento" id="1B993A87-304C-BF5E-E2C7-FD88A62E081C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>13F394B9-4BB0-9D50-35D4-6938F1FAFE21</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presentacion" id="18B9AA49-CC81-E8AA-8B38-304D7B79DF1B">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>E70EF72C-E86B-9D9A-791C-F0BA297A3329</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="concentracion" id="3389024F-977F-1DAE-A9DF-D8905CB18751">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>F5CCB50A-B8CC-C990-E393-CFB9A5D5DFB7</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="46B325B4-3E6B-B8BF-B7E4-58C6260D738A">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>528E9F6B-E4D0-317C-2F01-424E877CADC5</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description=""/>
+<valueDef value="S" description=""/>
+</listOfValues>
+<defaultValue>S</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9DFEC40-0FB6-4E2F-A0BC-A12841C30746" name="MEDICAMENTO_PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>AACC3A32-40DB-CCEF-1600-277E4CA40358</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9468E91-721A-1C2E-70C1-6DBF3F98BDC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

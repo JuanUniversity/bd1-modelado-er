@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50C1A333-688D-F04B-D02A-5E4156CA356A" containerWithKeyObject="F807BF26-7ABB-9C3D-BB4C-BC899900F341" localFKIndex="807C8C75-72E8-B810-D083-1194118D64F8" name="HOSPITALIZACION_CAMA_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>EB0527A2-9840-126D-B0C0-EE5ED0E41D9E</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<referredTableLongName>CAMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>899942D1-EACF-3AEB-EF53-B3E6459E67FC</referredTableID>
+<keyObject>6DA712AD-FEF2-30BE-31C9-5AD1E8AD55BE</keyObject>
+<referredKeyID>6DA712AD-FEF2-30BE-31C9-5AD1E8AD55BE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cama_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

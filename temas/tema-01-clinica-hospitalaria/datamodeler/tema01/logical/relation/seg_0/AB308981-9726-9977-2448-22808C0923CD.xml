@@ -9,7 +9,7 @@
 <sourcePk>332D90D6-95E4-A622-6CAD-42B51A530F63</sourcePk>
 <targetPk>758E1EF5-0B92-7DEC-AC46-3AE3EEDFB051</targetPk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>F4B001F6-1228-BA33-D02B-8DE437ADD25B</sourceEntity>

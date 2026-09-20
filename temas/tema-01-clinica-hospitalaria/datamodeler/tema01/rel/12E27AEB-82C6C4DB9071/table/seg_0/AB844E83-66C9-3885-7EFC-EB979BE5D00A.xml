@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB844E83-66C9-3885-7EFC-EB979BE5D00A" name="ATENCION">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>B6F65D17-0C45-4449-1763-CD192F29789E</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="historia_id" id="4AAD965B-0D41-769C-D691-A569DE3341A5">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>538EBF4E-68E2-14B3-0FB1-018BE309DEA3</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B71ECF26-EA3F-B61B-E69F-D8B9B4649995" referredColumn="F3520CBC-59CF-D3E4-10B4-5BAA22058568"/>
+</associations>
+</Column>
+<Column name="atencion_id" id="F6A5B21B-87D8-3A81-F666-9BA441749AC0">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>FD33A378-F91F-A868-21F5-F19F72E92480</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora" id="CF1AEB79-7589-F2CD-EBAA-DA71AEFA7DAE">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>931FC8D1-5D41-054D-5C4C-514C491BE4B4</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_atencion" id="1DAC50C2-5A45-0AD5-5D04-F93BFA5CF18B">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>B6E2F312-6299-ABCA-9D7F-0081F11B21F0</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="consulta_externa" description=""/>
+<valueDef value="control" description=""/>
+<valueDef value="urgencias" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motivo_consulta" id="72C8B48B-35E0-C431-B83E-8CDA4F34C0D7">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>457BE538-3B54-1A66-6D4E-9EA449B3F866</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="324F8790-9113-E5B5-FA1A-602A9A6092CB">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>C578F386-0E12-C597-1EA8-DC3ED85A6BE2</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E57DB78F-A877-EC0E-C22F-C1017193B77F" name="ATENCION_PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>5E205138-86C7-75E2-BAD1-B14A086D6E2B</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6A5B21B-87D8-3A81-F666-9BA441749AC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC05747F-A432-94EA-6ED5-0902B049C184" name="ATENCION_HISTORIA_CLINICA_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>94501F30-E1F5-64BB-B1AE-7F01901C8A6E</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AAD965B-0D41-769C-D691-A569DE3341A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

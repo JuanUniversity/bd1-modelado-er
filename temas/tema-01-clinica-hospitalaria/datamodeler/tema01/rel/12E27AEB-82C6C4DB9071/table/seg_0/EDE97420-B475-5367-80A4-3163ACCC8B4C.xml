@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDE97420-B475-5367-80A4-3163ACCC8B4C" name="DOCTOR">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>BD755116-6DBF-26D1-0E99-BF908E845C4B</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="doctor_id" id="654F585F-92AA-365B-1E34-4CA5B69DEAD7">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>39BD35ED-439E-71AD-3B9D-4604C986B3E2</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_documento" id="E7142C15-E4BD-A7CD-29AF-DBAF7A0806F9">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>17DA3CCA-7826-3EE7-1EC9-F2153078367B</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="17936F52-36E6-AFB2-633F-8F3B7C6C0D08">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>B8B1E6C9-BCD9-A44F-241A-059649A91237</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="29144A00-7632-4923-369F-990E84A6181C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>2C71956C-B667-AA20-D4F8-378AF63EC072</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registro_medico" id="35705429-C20E-9F2A-B29A-AF9BA955D7C9">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>5CF67589-B1E8-386D-1B17-797A61AA760E</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="2A9852E1-FE2E-1F35-67B2-89F7022C5E8C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>BC36D3DC-BBD2-C783-39F3-C0189EC964CF</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidad_id" id="7DCF5F21-B228-27E4-7D29-04CC655D68BA">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>40D67A7B-DCAA-458A-70BE-5CBFF961A88C</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA302A8F-581C-C9C7-665E-D96AA9E9BF83" referredColumn="5AB7C66D-F048-EDF7-3E13-59B38C4F7A26"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F3E55F3-017A-CD9A-C95E-4035B217BFC8" name="DOCTOR_PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>C9369BFD-CD0E-BEC8-3143-8AF85841734C</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="654F585F-92AA-365B-1E34-4CA5B69DEAD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F749E71-AB69-2F04-D5FF-F0B0B70C675B" name="DOCTOR_numero_documento_UN">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>3C95E974-2056-B0CA-D3A2-D952A9431CA4</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7142C15-E4BD-A7CD-29AF-DBAF7A0806F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDF46727-C0B9-66BF-D45E-6688C7507A33" name="DOCTOR_registro_medico_UN">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>CC045B95-1C50-BD03-820F-9C0A74F481F9</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35705429-C20E-9F2A-B29A-AF9BA955D7C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38ACB113-5691-D154-5DDD-879A6F76AB1F" name="DOCTOR_ESPECIALIDAD_FK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 01:40:10 UTC</createdTime>
+<generatorID>119DC92A-CDFF-CC33-7717-EA47CEC6FE58</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DCF5F21-B228-27E4-7D29-04CC655D68BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
