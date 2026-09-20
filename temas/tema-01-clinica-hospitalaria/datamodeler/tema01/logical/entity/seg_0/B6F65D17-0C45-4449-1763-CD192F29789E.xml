@@ -14,4 +14,118 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="historia_id" id="538EBF4E-68E2-14B3-0FB1-018BE309DEA3">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 18:57:45 UTC</createdTime>
+<generatorID>94501F30-E1F5-64BB-B1AE-7F01901C8A6E</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5DDA9454-F79A-2D1E-AD1E-558867C42AD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atencion_id" id="FD33A378-F91F-A868-21F5-F19F72E92480">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:04:56 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora" id="931FC8D1-5D41-054D-5C4C-514C491BE4B4">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:05:59 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_atencion" id="B6E2F312-6299-ABCA-9D7F-0081F11B21F0">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:07:43 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="consulta_externa" description=""/>
+<valueDef value="control" description=""/>
+<valueDef value="urgencias" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivo_consulta" id="457BE538-3B54-1A66-6D4E-9EA449B3F866">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:08:50 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="C578F386-0E12-C597-1EA8-DC3ED85A6BE2">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:09:12 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hospitalizacion_id" id="C2FACCDF-CB38-7E92-B586-A87D721F0F9F">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:29:25 UTC</createdTime>
+<generatorID>CE19AC05-D7E9-317E-A114-5A5B879166D1</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<referedAttribute>6E377E5C-5099-F724-A1EA-6264F4D33382</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E205138-86C7-75E2-BAD1-B14A086D6E2B" name="ATENCION PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:05:06 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD33A378-F91F-A868-21F5-F19F72E92480</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

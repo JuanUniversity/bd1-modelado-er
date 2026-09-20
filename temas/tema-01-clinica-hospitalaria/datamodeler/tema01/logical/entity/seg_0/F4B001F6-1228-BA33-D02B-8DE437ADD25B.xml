@@ -14,4 +14,174 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="paciente_id" id="DA7905C0-F097-AFC3-49D3-3324E705423C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 20:51:22 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento" id="39FEA01E-B00B-8169-FEBE-08504CF49927">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 20:53:30 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="CC" description=""/>
+<valueDef value="CE" description=""/>
+<valueDef value="PA" description=""/>
+<valueDef value="TI" description=""/>
+</listOfValues>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="EBDAF077-3F2C-64CD-F768-592634FDDCB0">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 20:56:40 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="4A5AA232-59A6-1A42-FDDF-1EA6A109C609">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 20:57:05 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="E724F4CD-E7BE-5112-311F-99B7C64AC506">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 20:58:25 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="3C73FC94-9602-D899-DF68-4095FCDF3C71">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 20:59:11 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="070CC448-9542-EF3F-308D-A536B17853A3">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 20:59:55 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description=""/>
+<valueDef value="M" description=""/>
+<valueDef value="O" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="37EE2599-CDEF-6ECB-74D5-EFEAB5C14B8B">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 21:00:31 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="71AE06B5-2FB5-095B-03BE-B9AA08F9988F">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 21:01:12 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="historia_id" id="F4B7F643-6C09-0926-1B81-15E7B5FF723C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 18:57:45 UTC</createdTime>
+<generatorID>AB308981-9726-9977-2448-22808C0923CD</generatorID>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<referedAttribute>5DDA9454-F79A-2D1E-AD1E-558867C42AD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="332D90D6-95E4-A622-6CAD-42B51A530F63" name="PACIENTE PK">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-18 20:53:14 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA7905C0-F097-AFC3-49D3-3324E705423C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="98579B41-76DC-29F2-17F3-6FC82CC310DA" name="paciente_uk_documento">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-19 19:42:51 UTC</createdTime>
+<ownerDesignName>tema01</ownerDesignName>
+<engineerTo>
+<item key="12E27AEB-B547-D406-3C29-82C6C4DB9071" value="true"/>
+</engineerTo>
+<newElementsIDs>EBDAF077-3F2C-64CD-F768-592634FDDCB0</newElementsIDs>
+<usedAttributes>
+<attributeRef>EBDAF077-3F2C-64CD-F768-592634FDDCB0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
