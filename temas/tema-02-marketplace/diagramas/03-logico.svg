@@ -167,8 +167,8 @@
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath1_0_)" transform="translate(739,664)" >
 <rect x="0" y="0" width="274" height="150" />
-<text id="947F70D8-05A5A789FE22" x="84" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-calificacion_vendedor
+<text id="947F70D8-05A5A789FE22" x="72" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+CALIFICACION_VENDEDOR
 </text>
 <line x1="0" y1="18" x2="273" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -239,8 +239,8 @@ calificacion_vendedor_fk (vendedor_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath2_0_)" transform="translate(80,104)" >
 <rect x="0" y="0" width="195" height="135" />
-<text id="6C1C520C-2FDCC823B0C9" x="82" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-carrito
+<text id="6C1C520C-2FDCC823B0C9" x="75" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+CARRITO
 </text>
 <line x1="0" y1="18" x2="194" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -302,8 +302,8 @@ carrito_usuario_fk (usuario_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath3_0_)" transform="translate(1116,339)" >
 <rect x="0" y="0" width="233" height="150" />
-<text id="3C38112E-4B3F3A2BCA84" x="94" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-categoria
+<text id="3C38112E-4B3F3A2BCA84" x="88" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+CATEGORIA
 </text>
 <line x1="0" y1="18" x2="232" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -377,8 +377,8 @@ categoria_padre_fk (categoria_padre_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath4_0_)" transform="translate(164,727)" >
 <rect x="0" y="0" width="237" height="149" />
-<text id="45DA9706-970858E6317E" x="83" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-detalle_pedido
+<text id="45DA9706-970858E6317E" x="76" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+DETALLE_PEDIDO
 </text>
 <line x1="0" y1="18" x2="236" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -449,8 +449,8 @@ detalle_pedido_producto_fk (producto_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath5_0_)" transform="translate(1437,307)" >
 <rect x="0" y="0" width="220" height="205" />
-<text id="3DA49C21-055684A26E3F" x="88" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-direccion
+<text id="3DA49C21-055684A26E3F" x="82" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+DIRECCION
 </text>
 <line x1="0" y1="18" x2="219" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -562,8 +562,8 @@ direccion_usuario_fk (usuario_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath6_0_)" transform="translate(1394,552)" >
 <rect x="0" y="0" width="245" height="234" />
-<text id="A14A83B5-6C3636DB3599" x="109" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-envio
+<text id="A14A83B5-6C3636DB3599" x="106" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+ENVIO
 </text>
 <line x1="0" y1="18" x2="244" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -687,8 +687,8 @@ envio_vendedor_fk (vendedor_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath7_0_)" transform="translate(28,564)" >
 <rect x="0" y="0" width="223" height="121" />
-<text id="E1123E69-565DBA2DE608" x="82" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-item_carrito
+<text id="E1123E69-565DBA2DE608" x="75" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+ITEM_CARRITO
 </text>
 <line x1="0" y1="18" x2="222" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -741,8 +741,8 @@ item_carrito_producto_fk (producto_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath8_0_)" transform="translate(41,323)" >
 <rect x="0" y="0" width="213" height="191" />
-<text id="D7DBB9DF-B0959CC1C950" x="95" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-pago
+<text id="D7DBB9DF-B0959CC1C950" x="93" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+PAGO
 </text>
 <line x1="0" y1="18" x2="212" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -838,8 +838,8 @@ pago_pedido_fk (pedido_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath9_0_)" transform="translate(308,340)" >
 <rect x="0" y="0" width="207" height="163" />
-<text id="1E2E398C-64D416A1D45F" x="87" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-pedido
+<text id="1E2E398C-64D416A1D45F" x="85" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+PEDIDO
 </text>
 <line x1="0" y1="18" x2="206" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -922,8 +922,8 @@ pedido_usuario_fk (usuario_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath10_0_)" transform="translate(463,576)" >
 <rect x="0" y="0" width="225" height="237" />
-<text id="A5E2EEC1-15B56EA14367" x="91" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-producto
+<text id="A5E2EEC1-15B56EA14367" x="85" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+PRODUCTO
 </text>
 <line x1="0" y1="18" x2="224" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -1049,8 +1049,8 @@ producto_vendedor_fk (vendedor_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath11_0_)" transform="translate(1422,849)" >
 <rect x="0" y="0" width="207" height="150" />
-<text id="EDBB1568-1B000700F62B" x="72" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-seguimiento
+<text id="EDBB1568-1B000700F62B" x="68" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+SEGUIMIENTO
 </text>
 <line x1="0" y1="18" x2="206" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -1126,8 +1126,8 @@ seguimiento_envio_fk (envio_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath12_0_)" transform="translate(694,0)" >
 <rect x="0" y="0" width="473" height="173" />
-<text id="E51957B9-0E9009D3F64B" x="218" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-usuario
+<text id="E51957B9-0E9009D3F64B" x="213" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+USUARIO
 </text>
 <line x1="0" y1="18" x2="472" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -1220,8 +1220,8 @@ usuario_correo_un (correo)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath13_0_)" transform="translate(1024,866)" >
 <rect x="0" y="0" width="266" height="149" />
-<text id="4773E309-1F4F8ED03606" x="83" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-valoracion_producto
+<text id="4773E309-1F4F8ED03606" x="69" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+VALORACION_PRODUCTO
 </text>
 <line x1="0" y1="18" x2="265" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -1292,8 +1292,8 @@ valoracion_usuario_fk (usuario_id)
 </g>
 <g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath14_0_)" transform="translate(808,304)" >
 <rect x="0" y="0" width="211" height="206" />
-<text id="5FBC5C7F-568F1E52F201" x="82" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-vendedor
+<text id="5FBC5C7F-568F1E52F201" x="78" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+VENDEDOR
 </text>
 <line x1="0" y1="18" x2="210" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="15" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">

@@ -97,8 +97,8 @@
 <path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M214 431 L240 431" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M474 481 L614 549" />
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M754 616 L614 549" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M474 481 L614 548" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M754 616 L614 548" />
 <path stroke-dasharray="none" d="M752.0 621.0 L744.0 612.0 L756.0 611.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
@@ -129,64 +129,64 @@
 <path stroke-dasharray="none" d="M611.0 352.0 L609.0 341.0 L619.0 346.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 <path stroke-dasharray="none" d="M536.0 235.0 L538.0 246.0 L528.0 241.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath6_0_)" transform="translate(266,349)" >
-<rect x="0" y="0" width="207" height="163" rx="20" ry="20" />
-<text id="D5ADA9D3-CA644D4D873E" x="87" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-pedido
-</text>
-</g>
 <g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath1_0_)" transform="translate(568,349)" >
 <rect x="0" y="0" width="195" height="135" rx="20" ry="20" />
-<text id="86F7150A-A097CE0E0330" x="82" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-carrito
-</text>
-</g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath5_0_)" transform="translate(0,347)" >
-<rect x="0" y="0" width="213" height="191" rx="20" ry="20" />
-<text id="3F97597D-587510D239A8" x="95" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-pago
-</text>
-</g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath9_0_)" transform="translate(694,0)" >
-<rect x="0" y="0" width="473" height="173" rx="20" ry="20" />
-<text id="5BA5F66C-3B5734C4F21E" x="218" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-usuario
-</text>
-</g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath3_0_)" transform="translate(1421,215)" >
-<rect x="0" y="0" width="220" height="205" rx="20" ry="20" />
-<text id="5CBBB9D8-5D66261119CB" x="88" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-direccion
+<text id="86F7150A-A097CE0E0330" x="75" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+CARRITO
 </text>
 </g>
 <g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath2_0_)" transform="translate(2,0)" >
 <rect x="0" y="0" width="233" height="150" rx="20" ry="20" />
-<text id="B2AB7E19-31B3CC2D4273" x="94" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-categoria
+<text id="B2AB7E19-31B3CC2D4273" x="88" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+CATEGORIA
 </text>
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath10_0_)" transform="translate(1006,272)" >
-<rect x="0" y="0" width="211" height="206" rx="20" ry="20" />
-<text id="92B3EBCB-1BCBFB42D033" x="82" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-vendedor
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath3_0_)" transform="translate(1421,215)" >
+<rect x="0" y="0" width="220" height="205" rx="20" ry="20" />
+<text id="5CBBB9D8-5D66261119CB" x="82" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+DIRECCION
 </text>
 </g>
 <g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath4_0_)" transform="translate(754,559)" >
 <rect x="0" y="0" width="245" height="234" rx="20" ry="20" />
-<text id="90AD9E9B-A15BBC8CE04B" x="109" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-envio
+<text id="90AD9E9B-A15BBC8CE04B" x="106" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+ENVIO
 </text>
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath8_0_)" transform="translate(1060,639)" >
-<rect x="0" y="0" width="207" height="150" rx="20" ry="20" />
-<text id="D92CF670-E30F41420FE3" x="72" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-seguimiento
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath5_0_)" transform="translate(0,347)" >
+<rect x="0" y="0" width="213" height="191" rx="20" ry="20" />
+<text id="3F97597D-587510D239A8" x="93" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+PAGO
+</text>
+</g>
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath6_0_)" transform="translate(266,349)" >
+<rect x="0" y="0" width="207" height="163" rx="20" ry="20" />
+<text id="D5ADA9D3-CA644D4D873E" x="85" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+PEDIDO
 </text>
 </g>
 <g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath7_0_)" transform="translate(330,0)" >
 <rect x="0" y="0" width="225" height="237" rx="20" ry="20" />
-<text id="64A972DB-34140A95ED69" x="91" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-producto
+<text id="64A972DB-34140A95ED69" x="85" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+PRODUCTO
+</text>
+</g>
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath8_0_)" transform="translate(1060,639)" >
+<rect x="0" y="0" width="207" height="150" rx="20" ry="20" />
+<text id="D92CF670-E30F41420FE3" x="68" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+SEGUIMIENTO
+</text>
+</g>
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath9_0_)" transform="translate(694,0)" >
+<rect x="0" y="0" width="473" height="173" rx="20" ry="20" />
+<text id="5BA5F66C-3B5734C4F21E" x="213" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+USUARIO
+</text>
+</g>
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath10_0_)" transform="translate(1006,272)" >
+<rect x="0" y="0" width="211" height="206" rx="20" ry="20" />
+<text id="92B3EBCB-1BCBFB42D033" x="78" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+VENDEDOR
 </text>
 </g>
 
