@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="1360" height="710">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="1352" height="708">
 <defs id="dmw_defs" >
 <svg id="fk_sym" viewBox="0 0 48.665 48.665" style="enable-background:new 0 0 48.665 48.665;" >
 <g>
@@ -23,7 +23,7 @@
 </g>
 </svg>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8_0_">
-<rect x="0" y="0" width="170" height="110" />
+<rect x="0" y="0" width="170" height="150" />
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9_0_">
 <rect x="0" y="0" width="170" height="110" />
@@ -44,7 +44,7 @@
 <rect x="0" y="0" width="170" height="110" />
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2_0_">
-<rect x="0" y="0" width="170" height="110" />
+<rect x="0" y="0" width="170" height="148" />
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5_0_">
 <rect x="0" y="0" width="170" height="110" />
@@ -53,119 +53,121 @@
 <rect x="0" y="0" width="170" height="110" />
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath11_0_">
-<rect x="0" y="0" width="170" height="110" />
+<rect x="0" y="0" width="170" height="150" />
 </clipPath>
 </defs>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M1114 363 L1152 363" />
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M1190 363 L1152 363" />
-<path stroke-dasharray="none" d="M1114.0 357.0 L1126.0 363.0 L1114.0 369.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M1182 403 L1144 403" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M1106 403 L1144 403" />
+<path stroke-dasharray="none" d="M1106.0 397.0 L1118.0 403.0 L1106.0 409.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M692 430 L305 604" />
-<path stroke-dasharray="none" d="M694.0 435.0 L682.0 434.0 L690.0 425.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
-<path stroke-dasharray="none" d="M303.0 599.0 L315.0 600.0 L307.0 609.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M691 453 L364 611" />
+<path stroke-dasharray="none" d="M693.0 458.0 L681.0 457.0 L689.0 448.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke-dasharray="none" d="M362.0 606.0 L374.0 607.0 L366.0 616.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M720 447 L569 593" />
-<path stroke-dasharray="none" d="M724.0 451.0 L712.0 455.0 L716.0 443.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
-<path stroke-dasharray="none" d="M565.0 589.0 L577.0 585.0 L573.0 597.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M695 486 L576 595" />
+<path stroke-dasharray="none" d="M699.0 490.0 L687.0 494.0 L691.0 482.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke-dasharray="none" d="M572.0 591.0 L584.0 587.0 L580.0 599.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M779 447 L779 600" />
-<path stroke-dasharray="none" d="M785.0 447.0 L779.0 459.0 L773.0 447.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
-<path stroke-dasharray="none" d="M773.0 600.0 L779.0 588.0 L785.0 600.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M772 486 L772 597" />
+<path stroke-dasharray="none" d="M778.0 486.0 L772.0 498.0 L766.0 486.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke-dasharray="none" d="M766.0 597.0 L772.0 585.0 L778.0 597.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M692 377 L647 377" />
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M603 377 L647 377" />
-<path stroke-dasharray="none" d="M692.0 383.0 L680.0 377.0 L692.0 371.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M602 413 L646 413" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M691 413 L646 413" />
+<path stroke-dasharray="none" d="M691.0 419.0 L679.0 413.0 L691.0 407.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M306 392 L433 392" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M356 411 L394 411" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M432 411 L394 411" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M705 152 L601 152" />
-<path stroke-dasharray="none" d="M601.0 146.0 L613.0 152.0 L601.0 158.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M698 181 L651 181" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M604 182 L651 181" />
+<path stroke-dasharray="none" d="M604.0 175.0 L616.0 181.0 L604.0 187.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M306 197 L499 276" />
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M692 356 L499 276" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M691 374 L523 301" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M355 227 L523 301" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M306 158 L368 158" />
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M431 158 L368 158" />
-<path stroke-dasharray="none" d="M306.0 152.0 L318.0 158.0 L306.0 164.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M434 192 L394 192" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M355 192 L394 192" />
+<path stroke-dasharray="none" d="M355.0 186.0 L367.0 192.0 L355.0 198.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M862 385 L944 385" />
-<path stroke-dasharray="none" d="M862.0 379.0 L874.0 385.0 L862.0 391.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
-<path stroke-dasharray="none" d="M944.0 391.0 L932.0 385.0 L944.0 379.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-dasharray="8,8" stroke-width="1" d="M861 403 L936 403" />
+<path stroke-dasharray="none" d="M861.0 397.0 L873.0 403.0 L861.0 409.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke-dasharray="none" d="M936.0 409.0 L924.0 403.0 L936.0 397.0" fill="white" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath1_0_)" transform="translate(705,94)" >
-<rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
-<text id="B464F963-4F15D1C4FB89" x="71" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-AREA
-</text>
-</g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath3_0_)" transform="translate(431,100)" >
-<rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
-<text id="81536B63-4C568C670C2D" x="70" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-CAMA
-</text>
-</g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath4_0_)" transform="translate(135,588)" >
-<rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
-<text id="51A5E085-A04B4FC07917" x="49" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-DIAGNOSTICO
-</text>
-</g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath7_0_)" transform="translate(697,600)" >
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath7_0_)" transform="translate(683,597)" >
 <rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
 <text id="155C3389-A34D907D2592" x="63" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 EXAMEN
 </text>
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath8_0_)" transform="translate(433,338)" >
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath4_0_)" transform="translate(194,598)" >
 <rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
-<text id="01D754E3-4D5334B2EA2A" x="37" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-HISTORIA_CLINICA
+<text id="51A5E085-A04B4FC07917" x="49" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+DIAGNOSTICO
 </text>
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath9_0_)" transform="translate(136,107)" >
-<rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
-<text id="09FD59E2-33E45E899CC4" x="38" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-HOSPITALIZACION
-</text>
-</g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath10_0_)" transform="translate(428,593)" >
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath10_0_)" transform="translate(431,595)" >
 <rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
 <text id="F19687C1-AA523CCBF0C4" x="47" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 MEDICAMENTO
 </text>
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath2_0_)" transform="translate(692,337)" >
-<rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
-<text id="B6F65D17-CD192F29789E" x="58" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-ATENCION
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath11_0_)" transform="translate(186,332)" >
+<rect x="0" y="0" width="169" height="149" rx="20" ry="20" />
+<text id="F4B001F6-8DE437ADD25B" x="60" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+PACIENTE
 </text>
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath5_0_)" transform="translate(944,323)" >
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath3_0_)" transform="translate(434,140)" >
+<rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
+<text id="81536B63-4C568C670C2D" x="70" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+CAMA
+</text>
+</g>
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath1_0_)" transform="translate(698,133)" >
+<rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
+<text id="B464F963-4F15D1C4FB89" x="71" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+AREA
+</text>
+</g>
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath5_0_)" transform="translate(936,348)" >
 <rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
 <text id="BD755116-BF908E845C4B" x="64" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 DOCTOR
 </text>
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath6_0_)" transform="translate(1190,324)" >
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath6_0_)" transform="translate(1182,349)" >
 <rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
 <text id="6F1B2D87-8EAF9EC96275" x="49" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 ESPECIALIDAD
 </text>
 </g>
-<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath11_0_)" transform="translate(136,337)" >
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath8_0_)" transform="translate(432,340)" >
+<rect x="0" y="0" width="169" height="149" rx="20" ry="20" />
+<text id="01D754E3-4D5334B2EA2A" x="37" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+HISTORIA_CLINICA
+</text>
+</g>
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath2_0_)" transform="translate(691,338)" >
+<rect x="0" y="0" width="169" height="147" rx="20" ry="20" />
+<text id="B6F65D17-CD192F29789E" x="58" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+ATENCION
+</text>
+</g>
+<g  fill="rgb(164,225,255)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath9_0_)" transform="translate(185,135)" >
 <rect x="0" y="0" width="169" height="109" rx="20" ry="20" />
-<text id="F4B001F6-8DE437ADD25B" x="60" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
-PACIENTE
+<text id="09FD59E2-33E45E899CC4" x="38" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+HOSPITALIZACION
 </text>
 </g>
 

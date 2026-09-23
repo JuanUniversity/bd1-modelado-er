@@ -163,8 +163,13 @@ HOSPITALIZACION y `area_id` en CAMA. Cada relación 1:1 se resolvió con una cla
 foránea acompañada de restricción de unicidad: `paciente_id` en HISTORIA_CLINICA
 y `atencion_id` en HOSPITALIZACION, ambas marcadas U, NN. Y cada relación N:N
 generó una tabla intermedia con clave primaria compuesta por las dos foráneas:
-PARTICIPACION_MEDICA, DIAGNOSTICO_ATENCION, PRESCRIPCION y ORDEN_EXAMEN. Las once
-entidades más estas cuatro tablas dan las quince tablas del modelo lógico.
+PARTICIPACION_MEDICA, DIAGNOSTICO_ATENCION, PRESCRIPCION y ORDEN_EXAMEN. Las
+once entidades más estas cuatro tablas dan las quince tablas del modelo lógico.
+Las relaciones conservan su nombre de verbo —atiende, diagnostica, prescribe,
+ordena— en los niveles conceptual y entidad-relación, porque en esos niveles son
+relaciones; solo al resolverse en el nivel lógico se convierten en tablas, y a
+partir de ahí llevan un sustantivo del negocio que describe lo que registra cada
+fila.
 
 **Verificación mediante la herramienta.** El modelo se construyó en Oracle SQL
 Developer Data Modeler y el modelo relacional se generó automáticamente con
@@ -186,9 +191,10 @@ corresponden a las cláusulas NOT NULL, las marcas U a las restricciones UNIQUE,
 las listas de valores permitidos C(...) a las restricciones CHECK, y los valores
 por defecto D= a las cláusulas DEFAULT. El documento y el script se ajustaron
 mutuamente donde diferían: se retiraron del documento los valores por defecto de
-las tres fechas, que no se cargaron en la herramienta. Las tablas intermedias,
-que la herramienta nombró con el verbo de la relación que resolvían, se
-renombraron con sustantivos del negocio y sus columnas se ajustaron al estándar
-del resto del modelo. Las relaciones conservan su nombre de verbo en los niveles
-conceptual y entidad-relación, porque en esos niveles son relaciones; solo al
-resolverse en el nivel lógico se convierten en tablas con nombre propio.
+las tres fechas, que no se cargaron en la herramienta. Además, las tablas
+intermedias, que la herramienta nombró con el verbo de la relación que
+resolvían, se renombraron con sustantivos del negocio, y sus columnas se
+ajustaron al estándar del resto del modelo: `atencion_id` en lugar de
+`atencion_atencion_id`, y así con las demás. Los nombres de sus restricciones se
+acortaron para respetar el límite de treinta caracteres de Oracle. De este modo,
+quien compare el documento con el script encuentra correspondencia literal.

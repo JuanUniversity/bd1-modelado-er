@@ -169,7 +169,8 @@ tabla, cada relación 1:N se resuelve con una clave foránea en el lado "muchos"
 las relaciones 1:1 se resuelven con una clave foránea que además lleva una
 restricción de unicidad, y cada relación N:N se resuelve creando una tabla
 intermedia con una clave primaria compuesta por las dos claves foráneas que
-participan en ella.
+participan en ella. Cada tabla intermedia recibe un sustantivo del negocio que
+describe lo que registra, en lugar del verbo de la relación que resuelve.
 
 ### PACIENTE
 
@@ -285,28 +286,28 @@ participan en ella.
 | `estado` | NN, D=libre, C(libre, ocupada, mantenimiento) | Obligatorio. |
 | `area_id` | FK, NN | Materializa la relación 1:N con AREA. |
 
-### PARTICIPACION_MEDICA — resuelve la relación N:N Atencion–Doctor
+### PARTICIPACION_MEDICA — resuelve la relación N:N Atencion–Doctor (atiende)
 
 | Columna | Restricción | Descripción |
 |---|---|---|
 | `atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
 | `doctor_id` | PK, FK | Referencia a DOCTOR; parte de la clave compuesta. |
 
-### DIAGNOSTICO_ATENCION — resuelve la relación N:N Atencion–Diagnostico
+### DIAGNOSTICO_ATENCION — resuelve la relación N:N Atencion–Diagnostico (diagnostica)
 
 | Columna | Restricción | Descripción |
 |---|---|---|
 | `atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
 | `diagnostico_id` | PK, FK | Referencia a DIAGNOSTICO; parte de la clave compuesta. |
 
-### PRESCRIPCION — resuelve la relación N:N Atencion–Medicamento
+### PRESCRIPCION — resuelve la relación N:N Atencion–Medicamento (prescribe)
 
 | Columna | Restricción | Descripción |
 |---|---|---|
 | `atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
 | `medicamento_id` | PK, FK | Referencia a MEDICAMENTO; parte de la clave compuesta. |
 
-### ORDEN_EXAMEN — resuelve la relación N:N Atencion–Examen
+### ORDEN_EXAMEN — resuelve la relación N:N Atencion–Examen (ordena)
 
 | Columna | Restricción | Descripción |
 |---|---|---|
@@ -328,5 +329,8 @@ El script generado por Oracle SQL Developer Data Modeler se encuentra en
   episodio que ancla el recorrido del paciente.
 - `paciente_id` se prefirió sobre `numero_documento` como clave primaria de
   PACIENTE; lo mismo con `registro_medico` en DOCTOR.
+- Las tablas intermedias llevan sustantivos del negocio en el nivel lógico,
+  mientras las relaciones que resuelven conservan su nombre de verbo en los
+  niveles conceptual y entidad-relación.
 - Quedaron fuera del alcance las citas previas y los tratamientos como entidad
   propia.
