@@ -285,33 +285,33 @@ participan en ella.
 | `estado` | NN, D=libre, C(libre, ocupada, mantenimiento) | Obligatorio. |
 | `area_id` | FK, NN | Materializa la relación 1:N con AREA. |
 
-### ATIENDE — resuelve la relación N:N Atencion–Doctor
+### PARTICIPACION_MEDICA — resuelve la relación N:N Atencion–Doctor
 
 | Columna | Restricción | Descripción |
 |---|---|---|
-| `atencion_atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
-| `doctor_doctor_id` | PK, FK | Referencia a DOCTOR; parte de la clave compuesta. |
+| `atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
+| `doctor_id` | PK, FK | Referencia a DOCTOR; parte de la clave compuesta. |
 
-### DIAGNOSTICA — resuelve la relación N:N Atencion–Diagnostico
-
-| Columna | Restricción | Descripción |
-|---|---|---|
-| `atencion_atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
-| `diagnostico_diagnostico_id` | PK, FK | Referencia a DIAGNOSTICO; parte de la clave compuesta. |
-
-### PRESCRIBE — resuelve la relación N:N Atencion–Medicamento
+### DIAGNOSTICO_ATENCION — resuelve la relación N:N Atencion–Diagnostico
 
 | Columna | Restricción | Descripción |
 |---|---|---|
-| `atencion_atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
-| `medicamento_medicamento_id` | PK, FK | Referencia a MEDICAMENTO; parte de la clave compuesta. |
+| `atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
+| `diagnostico_id` | PK, FK | Referencia a DIAGNOSTICO; parte de la clave compuesta. |
 
-### ORDENA — resuelve la relación N:N Atencion–Examen
+### PRESCRIPCION — resuelve la relación N:N Atencion–Medicamento
 
 | Columna | Restricción | Descripción |
 |---|---|---|
-| `atencion_atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
-| `examen_examen_id` | PK, FK | Referencia a EXAMEN; parte de la clave compuesta. |
+| `atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
+| `medicamento_id` | PK, FK | Referencia a MEDICAMENTO; parte de la clave compuesta. |
+
+### ORDEN_EXAMEN — resuelve la relación N:N Atencion–Examen
+
+| Columna | Restricción | Descripción |
+|---|---|---|
+| `atencion_id` | PK, FK | Referencia a ATENCION; parte de la clave compuesta. |
+| `examen_id` | PK, FK | Referencia a EXAMEN; parte de la clave compuesta. |
 
 ![Modelo lógico](diagramas/03-logico.svg)
 
