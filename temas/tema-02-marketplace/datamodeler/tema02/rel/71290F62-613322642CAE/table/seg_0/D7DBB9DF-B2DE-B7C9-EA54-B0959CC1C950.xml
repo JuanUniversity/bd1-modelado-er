@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7DBB9DF-B2DE-B7C9-EA54-B0959CC1C950" name="pago">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7DBB9DF-B2DE-B7C9-EA54-B0959CC1C950" name="PAGO">
 <sourceDDLFile>tema02.sql</sourceDDLFile>
 <createdBy>juan</createdBy>
 <createdTime>2026-09-20 16:15:42 UTC</createdTime>
