@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="categoria_padre_fk" directorySegmentName="seg_0" id="E8EDD25F-05CD-2750-B6DD-DF20E3033C05">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>9BE4AF8C-AD6A-A968-29B3-03A95696956C</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<targetPk>0D724A89-B391-A66C-0E82-183DEF73DED1</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2AB7E19-56C5-5024-15B7-31B3CC2D4273</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2AB7E19-56C5-5024-15B7-31B3CC2D4273</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

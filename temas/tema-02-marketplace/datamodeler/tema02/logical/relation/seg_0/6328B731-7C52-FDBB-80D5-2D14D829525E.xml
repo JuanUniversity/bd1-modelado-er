@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="califica" directorySegmentName="seg_0" id="6328B731-7C52-FDBB-80D5-2D14D829525E">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:24:09 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5BA5F66C-6E60-F072-3DBC-3B5734C4F21E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92B3EBCB-8DC7-907A-58C9-1BCBFB42D033</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

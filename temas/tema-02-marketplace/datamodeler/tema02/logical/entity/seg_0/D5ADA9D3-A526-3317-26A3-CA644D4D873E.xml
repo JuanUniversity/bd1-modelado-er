@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5ADA9D3-A526-3317-26A3-CA644D4D873E" name="pedido">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>1E2E398C-23B6-6CA7-D122-64D416A1D45F</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pedido id" id="A14E66A1-1BA2-6401-D256-B1EBFEC38937">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>1899428B-63D7-9343-A6CE-E36DD0E863C0</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero pedido" id="6FE237EF-1F87-5478-93E1-AACB411DE5AA">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>5174A12F-B150-7A63-2387-2348F7658F59</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>39906236-4E31-9AD7-EB49-00EFAB6F6530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha pedido" id="5AC6D21D-5139-AC67-CC16-B7D9AB10069F">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>729BDCAB-5BA3-6926-D1B7-4E9517A5A275</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0985C258-B288-EDEA-29AD-A02F291074C3</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="EC0F2A38-AFB1-0823-474A-72BE6E42F469">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>DEC6E41E-F0D2-16AD-1BF4-70677ACFE68D</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC0830E5-1766-3788-6270-9D7F62550E55</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="total &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="D46F9A59-A1C0-5D07-4DC0-F9D36BD43227">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>BBFB448F-828E-FB4C-82BB-5A87A84E5A22</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7482969-A0BD-D2EF-0DF0-36EC6AB9EE79</domain>
+<listOfValues>
+<valueDef value="cancelado" description=""/>
+<valueDef value="entregado" description=""/>
+<valueDef value="enviado" description=""/>
+<valueDef value="pagado" description=""/>
+<valueDef value="pendiente" description=""/>
+</listOfValues>
+<defaultValue>&apos;pendiente&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario id" id="ECF38667-E2EF-86B0-C699-689FB50157DE">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>4DF4F368-58DB-2F4F-0F03-90A5B629E14E</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<referedAttribute>6F397D25-F005-A8F7-169C-37BDA3B217C4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01203EDD-A433-0ECE-B32C-F38FCD538DCA" name="pedido pk">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>D8BA6823-BDAC-FB99-3B56-1DBCE8EDB2F5</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A14E66A1-1BA2-6401-D256-B1EBFEC38937</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DBDB3819-1B17-88C9-E878-34770333A399" name="pedido numero un">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>6E3F29BF-29ED-0553-D638-D94348137A19</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>6FE237EF-1F87-5478-93E1-AACB411DE5AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

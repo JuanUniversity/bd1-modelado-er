@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contiene" directorySegmentName="seg_0" id="F66511A1-A7B9-1C47-877E-34E53664BAAA">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:20:20 UTC</createdTime>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>86F7150A-5F8A-7431-F8D2-A097CE0E0330</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>64A972DB-A2B1-9904-CCD7-34140A95ED69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

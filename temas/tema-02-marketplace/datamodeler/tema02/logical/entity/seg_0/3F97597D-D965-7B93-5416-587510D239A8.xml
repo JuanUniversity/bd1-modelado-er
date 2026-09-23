@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F97597D-D965-7B93-5416-587510D239A8" name="pago">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>D7DBB9DF-B2DE-B7C9-EA54-B0959CC1C950</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pago id" id="770FAB1D-6BFC-D2BC-F13C-B68AF3186978">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>B9F7C045-17E8-AD69-69D9-89153B83E4E4</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referencia pago" id="70082572-B0CA-2A65-48C5-32CA14E058E3">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>CCE949B8-3CD3-558D-11DF-6FDAC09707D5</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9C221455-6387-4192-32E8-ED01904F303A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metodo pago" id="1A233E52-7004-F1EB-F907-B488EB09AC6E">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>A04EE3F3-8949-A613-D8AE-CE7482C61A43</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7482969-A0BD-D2EF-0DF0-36EC6AB9EE79</domain>
+<listOfValues>
+<valueDef value="billetera" description=""/>
+<valueDef value="efectivo" description=""/>
+<valueDef value="pse" description=""/>
+<valueDef value="tarjeta" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="5179E8EE-3247-A592-FB98-DAB1E58826D0">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>87CE8C8E-E435-40BA-97AE-0646958C45E9</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC0830E5-1766-3788-6270-9D7F62550E55</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="monto &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha pago" id="B03A9421-888E-5E5F-FA75-979FF0551A2D">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>856C5E4E-FC63-C05A-5065-B002F0CA2FC1</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0985C258-B288-EDEA-29AD-A02F291074C3</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="ED1FB26F-DC96-2C11-C2B9-59D77FD8E3FE">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>F0B65D7A-7A66-530E-A76D-9F94A745F04F</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7482969-A0BD-D2EF-0DF0-36EC6AB9EE79</domain>
+<listOfValues>
+<valueDef value="aprobado" description=""/>
+<valueDef value="pendiente" description=""/>
+<valueDef value="rechazado" description=""/>
+<valueDef value="reembolsado" description=""/>
+</listOfValues>
+<defaultValue>&apos;pendiente&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedido id" id="BE11161D-2761-1F60-955E-85DBB4392F82">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>9D5D1865-A82F-C0C6-7DBB-E101C727BB5C</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<referedAttribute>A14E66A1-1BA2-6401-D256-B1EBFEC38937</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8AC30A90-5630-CDCE-029A-F0EEC6E0AEB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="829A43E5-1C3C-9B7B-27E5-FEF304C3C993" name="pago pk">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>898958E5-1014-3EA5-172D-17D95786094C</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>770FAB1D-6BFC-D2BC-F13C-B68AF3186978</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F1A153CC-A91F-870B-3DBE-E8D4D43BAE7B" name="pago referencia un">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>C45B720C-929D-3CFE-E2A8-2CAFA16AF730</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>70082572-B0CA-2A65-48C5-32CA14E058E3</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4628CE19-98DF-FB94-1D2C-8A4843946DD2" name="pago pedido un">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>6E864D81-E347-AB4A-E9FE-D4D31924EB15</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>BE11161D-2761-1F60-955E-85DBB4392F82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

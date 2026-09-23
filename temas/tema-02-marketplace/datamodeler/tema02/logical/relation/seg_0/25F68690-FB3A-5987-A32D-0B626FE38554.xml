@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="seguimiento_envio_fk" directorySegmentName="seg_0" id="25F68690-FB3A-5987-A32D-0B626FE38554">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>34A5D635-9B88-33F6-D489-AB0C6742D1FC</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<sourcePk>4C45BCBD-E358-AAA7-C6B3-2CB8702365ED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>90AD9E9B-3EE7-14E0-A310-A15BBC8CE04B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D92CF670-81AD-69E2-B742-E30F41420FE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

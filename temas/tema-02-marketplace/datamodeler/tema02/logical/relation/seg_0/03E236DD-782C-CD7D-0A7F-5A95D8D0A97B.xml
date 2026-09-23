@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="producto_vendedor_fk" directorySegmentName="seg_0" id="03E236DD-782C-CD7D-0A7F-5A95D8D0A97B">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>450387AA-443F-398D-C538-2E9B8CB28827</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<sourcePk>E4C87484-7E1C-1B53-1328-F8CCC4F6E1EF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92B3EBCB-8DC7-907A-58C9-1BCBFB42D033</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>64A972DB-A2B1-9904-CCD7-34140A95ED69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

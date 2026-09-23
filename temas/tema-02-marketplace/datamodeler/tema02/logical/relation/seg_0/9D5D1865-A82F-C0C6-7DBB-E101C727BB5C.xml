@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pago_pedido_fk" directorySegmentName="seg_0" id="9D5D1865-A82F-C0C6-7DBB-E101C727BB5C">
+<createdBy>juan</createdBy>
+<createdTime>2026-09-20 19:12:04 UTC</createdTime>
+<generatorID>80FC578D-A595-BA35-D9DE-A8C8C64A1D21</generatorID>
+<ownerDesignName>tema02</ownerDesignName>
+<engineerTo>
+<item key="71290F62-52C3-EAF5-DA9D-613322642CAE" value="true"/>
+</engineerTo>
+<sourcePk>01203EDD-A433-0ECE-B32C-F38FCD538DCA</sourcePk>
+<dominantRole>D5ADA9D3-A526-3317-26A3-CA644D4D873E</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5ADA9D3-A526-3317-26A3-CA644D4D873E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3F97597D-D965-7B93-5416-587510D239A8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
